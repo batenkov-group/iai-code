@@ -24,8 +24,8 @@ let ntests=15000,seed=5,Ωₘ=100
                         title!("p=$(ℓ),d=$(R), j=$(ni), \$ {\\bf S_1} \$")
                         #ylims!(-.3,0.3)
                         xlims!(1.5,2.5)
-                        savefig(p,"../figures/phase_tran_noncl_rand.pdf")
-                        display(sum(res[:,2].==0))
+                        #savefig(p,"../figures/phase_tran_noncl_rand.pdf")
+                        #display(sum(res[:,2].==0))
                     end
                 end
             end

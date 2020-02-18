@@ -320,3 +320,6 @@ runSingle_ind(ℓ,R,clusterFun, pertFun, amplitudeFun, ni, ϵR,ΩR,ΔR) = begin
 
     [inv(Ω*Δ),res[3:4]...]
 end
+
+cc(x) = (x==0) ? (:red) : (:blue)
+ss(x) = (x==0) ? (:circle) : (:dtriangle)
