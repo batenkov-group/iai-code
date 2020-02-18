@@ -26,7 +26,7 @@ let ntests=15000,seed=0,Ωₘ=2000
                         ylims!(5,13)
                         xlims!(0,2)
                         title!("p=$(ℓ),d=$(R), \$ {\\bf S_1} \$")
-                        #savefig(p,"../figures/phase_tran_5.pdf")
+                        savefig(p,"./figures/fig5-2.pdf")
                     end
                 end
             end

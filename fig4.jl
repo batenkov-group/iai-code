@@ -25,7 +25,7 @@ let ntests=100,ℓ=2,R=3,clusterFun=Ζ,amplitudeFun = opposite1s
                         plot!([t->(2*ℓ-1)*t+1],w=1,l=:dash,lc=[:black],lab="\$ SRF^{2p-1} \$ ");
                         titleStr = "p=$(ℓ),d=$(R), \$ {\\bf S_2} \$"
                         p=plot(p1,p2,layout=(1,2),size=(800,300),title=titleStr);
-                        #savefig(p,"../figures/acc_1.pdf")
+                        savefig(p,"./figures/fig4.pdf")
                     end
                 end
             end

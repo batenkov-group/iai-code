@@ -25,7 +25,7 @@ let ntests=100,ℓ=2,R=3,clusterFun=Ζ,amplitudeFun = imag1s,seed=0,Ωₘ=2000
                          plot!([t->(2*ℓ-1)*t+1],w=1,l=:dash,lc=[:black],lab="\$ SRF^{2p-1} \$ ");
                          titleStr = "p=$(ℓ),d=$(R), \$ {\\bf S_1} \$"
                          p=plot(p1,p2,layout=(1,2),size=(800,300),title=titleStr);
-                         #savefig(p,"../figures/acc_3.pdf")
+                         savefig(p,"./figures/fig3.pdf")
                     end
                 end
             end
