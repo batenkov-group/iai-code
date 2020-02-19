@@ -1,5 +1,5 @@
 # Super-resolution of near-colliding point sources
-This repository holds the code reproducing the numerical results from the paper D. Batenkov, G. Goldman, and Y. Yomdin, “Super-resolution of near-colliding point sources,” arXiv:1904.09186 [math], Apr. 2019, to appear in *Information and Inference: a Journal of the IMA*.
+This repository holds the code reproducing the numerical results from the paper D. Batenkov, G. Goldman, and Y. Yomdin, “Super-resolution of near-colliding point sources,” arXiv:1904.09186 [math], Apr. 2019, to appear in *Information and Inference: A Journal of the IMA*.
 
 
 
@@ -21,5 +21,9 @@ The above notebooks call the code from the corresponding Julia source files: [fi
 
 `include("./fig3.jl")`
 
-and so on. The figure files are written to the  `figures` subfolder.
+and so on. For convenience, all figures can be reproduced by
+
+`include("./run_all.jl").`
+
+The common code resides in [superres.jl](./superres.jl). The figure files are written to the  `figures` subfolder.
 
